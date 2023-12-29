@@ -1,3 +1,5 @@
+if you don't assign a variable to a value, it will be stored in the ans variable by default
+
 a=[3 10 5] #Row Vector
 O/P: a= 3  10  5
 
@@ -22,4 +24,34 @@ f=f' #trasposes f
 
 x=rand(n) #makes a n*n matrix with random values between 0 and 1
 
-y=rand(m,n)) #makes a m*n matrix with random values between 0 and 1
+y=rand(m,n) #makes a m*n matrix with random values between 0 and 1
+
+x=data(6,3) #extracts value in 6th row and 3rd column
+x=data(6,:) #extracts all values in 6th row
+
+#Use the "end" keyword to extract the last element of a vector or matrix
+
+If we use data(8),it goes through the first column,then the 2nd column then the 3rd and so on until it counts 8 places and returns the 8th element.
+
+
+hiel=density([1 3 6]) #returns the 1st,3rd and 6th element of the vector
+
+vm=max(va) #To find the max vale in a vector va
+
+c=a*b # performs matrix multiplication
+c=a.*b #performs element-wise multiplication(corresponding elements)
+
+[rows,column]=size(data) #returns the number of rows and columns in the matrix data
+[~,column]=size(v2)#The ~ symbol tells MATLAB to ignore that output argument
+
+PLOTTING
+
+plot(x,y) #plots a graph with x as x-axis and y as y-axis
+plot(sample,mass2,"r*") #plots a graph with sample as x-axis and mass2 as y-axis with red stars as markers
+
+hold on #holds the current plot and allows you to add multiple plots to the same figure
+hold off #releases the current plot
+
+title("Sample Mass") #to add a title to the plot
+ylabel("Mass (g)") # to add a label to the y-axis
+legend("Exp A","Exp B") # to add a legend to the plot
