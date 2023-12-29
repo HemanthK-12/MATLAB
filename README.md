@@ -4,12 +4,12 @@ Hello there! Welcome to the wild, wild west of MATLAB notes.This repo is where I
 
 ## What's Inside? 🎁
 
-Here you'll find a collection of scripts, functions, and notes that I've gathered during my MATLAB learning journey. It's like a treasure chest, but instead of gold and jewels, it's full of vectors, matrices, and algorithms. (Which, let's be honest, are way cooler. 💎)
+Here you'll find a collection of scripts, functions, and notes that I've gathered during my MATLAB learning journey.It's like a treasure chest,but full of vectors, matrices, and algorithms🙃
 
 ## Why MATLAB? 🤔
 
 Why not? It's like the Swiss Army knife of programming languages. Need to do some complex math? MATLAB's got your back. Want to visualize data in 3D? MATLAB's got your back.
-But,I'm mainly focusing on MATLAB for a project(Shh!🤨) I'm working on in our Automation and Robotics CLub.
+But,I'm mainly focusing on MATLAB now for a project(Shh!🤨) I'm working on in our Automation and Robotics CLub.
 
 ## How to Use This Repository 📚
 
