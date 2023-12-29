@@ -1,0 +1,25 @@
+a=[3 10 5] #Row Vector
+O/P: a= 3  10  5
+
+b=[6;8;4] #Column Vector
+b= 6
+   8
+   4
+
+c=[5 6 7;8 9 10]  #Matrix
+5	6	7
+8	9	10
+
+d=1:5#makes a row vector from 1 to 5
+d= 1  2  3  4  5
+
+z=1:0.5:5 #makes a row vector from 1 to 5 with increment of 0.5
+z= 1.0000  1.5000  2.0000  2.5000  3.0000  3.5000  4.0000  4.5000  5.0000
+
+e=linspace(a,b,c) #makes a row vector from a to b with c elements
+
+f=f' #trasposes f
+
+x=rand(n) #makes a n*n matrix with random values between 0 and 1
+
+y=rand(m,n)) #makes a m*n matrix with random values between 0 and 1
